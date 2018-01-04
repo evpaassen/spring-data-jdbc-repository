@@ -484,7 +484,7 @@ Check out link:src/test/java/cz/jirutka/spring/data/jdbc/JdbcRepositoryCompoundP
 This library is completely orthogonal to transaction management.
 Every method of each repository requires running transaction and it’s up to you to set it up.
 Typically you would place `@Transactional` on service layer (calling DAO beans).
-Please not that it’s generally not recommend to https://stackoverflow.com/questions/8993318[place @Transactional over every DAO bean].
+Please note that it’s generally not recommend to https://stackoverflow.com/questions/8993318[place @Transactional over every DAO bean].
 
 
 === Caching
